@@ -1,0 +1,23 @@
+# Python virtual environment and cache
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Dataset images and generated gallery
+data/processed/coco_subset/images/
+data/processed/coco_subset/review_gallery.jpg
+
+# Model weights and checkpoints
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+
+# Editor settings
+.vscode/
