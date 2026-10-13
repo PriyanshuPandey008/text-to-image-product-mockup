@@ -1,17 +1,102 @@
-# Python virtual environment and cache
-.venv/
+# Python bytecode and cache
 __pycache__/
 *.py[cod]
+*$py.class
 .pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.ruff_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/
 
-# Secrets and environment files
+# Python environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.pdm-python
+.pdm-build/
+.pixi/
+__pypackages__/
+
+# Secrets and local configuration
 .env
 .env.*
 !.env.example
+.envrc
+.pypirc
+.streamlit/secrets.toml
 
-# Dataset images and generated gallery
-data/processed/coco_subset/images/
-data/processed/coco_subset/review_gallery.jpg
+# Python packaging and build artifacts
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+wheels/
+share/python-wheels/
+lib/
+lib64/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Compiled extensions and executables
+*.so
+*.manifest
+*.spec
+
+# Test and framework artifacts
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+instance/
+.webassets-cache/
+.scrapy/
+celerybeat-schedule
+celerybeat.pid
+
+# Jupyter and IPython
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# Documentation and build output
+docs/_build/
+.pybuilder/
+target/
+site/
+
+# Local tool configuration
+.spyderproject
+.spyproject
+.ropeproject
+.abstra/
+.vscode/
+.idea/
+tempCodeRunnerFile.py
+.pypirc
 
 # Model weights and checkpoints
 *.safetensors
@@ -19,5 +104,6 @@ data/processed/coco_subset/review_gallery.jpg
 *.pt
 *.pth
 
-# Editor settings
-.vscode/
+# Dataset images and generated review gallery
+data/processed/coco_subset/images/
+data/processed/coco_subset/review_gallery.jpg
