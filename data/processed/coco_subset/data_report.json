@@ -1,0 +1,21 @@
+{
+  "dataset": "COCO Captions",
+  "random_seed": 42,
+  "requested_subset": {
+    "train_images": 1000,
+    "validation_images": 100
+  },
+  "splits": {
+    "train2017": {
+      "images": 1000,
+      "caption_annotations": 5006
+    },
+    "val2017": {
+      "images": 100,
+      "caption_annotations": 502
+    }
+  },
+  "total_images": 1100,
+  "total_caption_annotations": 5508,
+  "note": "Initial random subset. Product relevance and image quality must be assessed before fine-tuning."
+}
