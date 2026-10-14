@@ -1,0 +1,332 @@
+[
+  {
+    "split": "train2017",
+    "image_records": 1000,
+    "caption_annotations": 5006,
+    "images_verified": 1000,
+    "image_errors": [],
+    "mean_width": 581.5,
+    "mean_height": 482.56,
+    "min_width": 236,
+    "min_height": 231,
+    "mean_caption_words": 10.47,
+    "keyword_matched_images": 453,
+    "keyword_match_counts": {
+      "vehicle": 161,
+      "product": 321
+    },
+    "sample_examples": [
+      {
+        "image_id": 68130,
+        "file_name": "000000068130.jpg",
+        "captions": [
+          "a group of people crossing a city street",
+          "A group of people cross a cross walk in a big city",
+          "a lot of people crossing a crosswalk",
+          "Many people are crossing the street in front of some large buildings.",
+          "a photo taken on the corner facing old looking buildings"
+        ],
+        "width": 640,
+        "height": 429,
+        "keyword_matches": []
+      },
+      {
+        "image_id": 222195,
+        "file_name": "000000222195.jpg",
+        "captions": [
+          "A cay laying on top of a blue couch arm next to a wall.",
+          "A cat lying down with a packaged toothbrush on its head.",
+          "The cat is irritated that there is a packaged toothbrush resting on its head.",
+          "A close up view of cat carrying a toothbrush on its head.",
+          "A grey and black cat with a toothbrush on its head."
+        ],
+        "width": 640,
+        "height": 427,
+        "keyword_matches": [
+          "vehicle"
+        ]
+      },
+      {
+        "image_id": 133386,
+        "file_name": "000000133386.jpg",
+        "captions": [
+          "some people are on skateboards at a skate park",
+          "A skateboard park with many skateboarders doing different stunts",
+          "The young man is practicing his tricks on his skateboard.",
+          "An edited photo showing a single boy performing various skateboard tricks in a single picture.",
+          "A kid performs many tricks while at the skate park."
+        ],
+        "width": 640,
+        "height": 429,
+        "keyword_matches": []
+      },
+      {
+        "image_id": 60513,
+        "file_name": "000000060513.jpg",
+        "captions": [
+          "A tall giraffe standing next to a building under trees.",
+          "Giraffe walking in front of a white building with a fence around it.",
+          "A giraffe walking in front of a building near a wooded area.",
+          "A giraffe standing near trees and a building.",
+          "A giraffe that is walking in an enclosure."
+        ],
+        "width": 640,
+        "height": 436,
+        "keyword_matches": []
+      },
+      {
+        "image_id": 410845,
+        "file_name": "000000410845.jpg",
+        "captions": [
+          "A table topped with plates of food and salad.",
+          "A table is set with lots of vegetables and jars.",
+          "A luncheon spread with tofu soup, broccoli, sliced vegetables and avocado.",
+          "A bowl of food sitting on a blue table cloth.",
+          "Several dishes contain a wide variety of vegetables."
+        ],
+        "width": 640,
+        "height": 428,
+        "keyword_matches": [
+          "product"
+        ]
+      },
+      {
+        "image_id": 48850,
+        "file_name": "000000048850.jpg",
+        "captions": [
+          "A table with two chairs with a pink hairdryer on top.",
+          "A cafe table and chairs on a sidewalk near a street.",
+          "An outside table and chairs with a pink lamp.",
+          "An outdoor table and chair setting on the curb",
+          "A pink retro blow dryer is set up on a table for two with view of the street curb."
+        ],
+        "width": 640,
+        "height": 544,
+        "keyword_matches": [
+          "product"
+        ]
+      },
+      {
+        "image_id": 166805,
+        "file_name": "000000166805.jpg",
+        "captions": [
+          "A piece of pie and a fork sit on a white saucer.",
+          "A piece of cake on a plate with  a fork.",
+          "White Corel plate with gold flowers with piece of cream filled cake and chocolate frosting.",
+          "A piece of cake on a plate with cream filling next to a fork.",
+          "A chocolate cake sitting on a plate with a fork."
+        ],
+        "width": 640,
+        "height": 425,
+        "keyword_matches": []
+      },
+      {
+        "image_id": 168713,
+        "file_name": "000000168713.jpg",
+        "captions": [
+          "Man putting on a giraffe patterned neck tie at an outdoor event",
+          "A man is putting on a tie that has giraffe pattern on",
+          "Man tying a giraffe-print necktie at an outdoor event.",
+          "A man tying a tie with a woman in the background.",
+          "A man has a tie that has a giraffe print."
+        ],
+        "width": 640,
+        "height": 480,
+        "keyword_matches": []
+      },
+      {
+        "image_id": 72729,
+        "file_name": "000000072729.jpg",
+        "captions": [
+          "a bunch of vegetables in a group together",
+          "A market area with various fruits and vegetables.",
+          "A table filled with fruits and vegetables for sale",
+          "Broccoli, onions and other veggies sit out on the market table",
+          "The various vegetables are stacked near each other."
+        ],
+        "width": 480,
+        "height": 640,
+        "keyword_matches": [
+          "product"
+        ]
+      },
+      {
+        "image_id": 543692,
+        "file_name": "000000543692.jpg",
+        "captions": [
+          "A little girl holding a teddy bear in a field",
+          "A toddler holding a teddy bear stands in front of a no trespassing sign in a thickly vegetated area.",
+          "A toddler stands next to a No Trespassing sign.",
+          "A girl with a teddy bear near a no trespassing sign.",
+          "A baby girl holding a white teddy bear walking across a park."
+        ],
+        "width": 640,
+        "height": 480,
+        "keyword_matches": []
+      }
+    ]
+  },
+  {
+    "split": "val2017",
+    "image_records": 100,
+    "caption_annotations": 502,
+    "images_verified": 100,
+    "image_errors": [],
+    "mean_width": 585.43,
+    "mean_height": 488.86,
+    "min_width": 240,
+    "min_height": 281,
+    "mean_caption_words": 10.43,
+    "keyword_matched_images": 41,
+    "keyword_match_counts": {
+      "vehicle": 14,
+      "product": 28
+    },
+    "sample_examples": [
+      {
+        "image_id": 511647,
+        "file_name": "000000511647.jpg",
+        "captions": [
+          "A man flying a kite above a tall building in a cloudy blue sky.",
+          "A person flying a kite high above buildings",
+          "an image of a boy that is flying a remote control plane in the air",
+          "Man flying a kite high above hotel buildings",
+          "A person is flying a kite near some buildings."
+        ],
+        "width": 640,
+        "height": 480,
+        "keyword_matches": []
+      },
+      {
+        "image_id": 263969,
+        "file_name": "000000263969.jpg",
+        "captions": [
+          "Man and woman holding a knife up to a small cake.",
+          "A couple cut their wedding cake on their wedding day.",
+          "A man and woman making a cut into a cake together",
+          "a bride and groom couple cuts the wedding cake",
+          "A bride and groom cutting a wedding cake."
+        ],
+        "width": 640,
+        "height": 610,
+        "keyword_matches": []
+      },
+      {
+        "image_id": 110784,
+        "file_name": "000000110784.jpg",
+        "captions": [
+          "A bus traveling down a street next to a tall building.",
+          "A strange trolley is being pulled through town.",
+          "A trolley with people drives down a street by a building.",
+          "A lady is riding the back of a trolley train.",
+          "Multiple colored bus passing beside a tiered building."
+        ],
+        "width": 433,
+        "height": 640,
+        "keyword_matches": [
+          "vehicle"
+        ]
+      },
+      {
+        "image_id": 110972,
+        "file_name": "000000110972.jpg",
+        "captions": [
+          "A large black bear walking across a field.",
+          "A black bear is standing outdoors in the wild.",
+          "A bear is walking in an area with a lot of foliage.",
+          "A black bear walking in the grass and leaves.",
+          "A gigantic black bear roams around with his head hanging low."
+        ],
+        "width": 640,
+        "height": 487,
+        "keyword_matches": []
+      },
+      {
+        "image_id": 270402,
+        "file_name": "000000270402.jpg",
+        "captions": [
+          "Two gray elephants standing next to each other on a road.",
+          "A couple of elephants are walking around in the dirt",
+          "An elephant trying to reach something on the ground with his trunk.",
+          "Two elephants are standing are standing in an enclosure.",
+          "Two elephants standing in a pen in different spots."
+        ],
+        "width": 640,
+        "height": 426,
+        "keyword_matches": []
+      },
+      {
+        "image_id": 344795,
+        "file_name": "000000344795.jpg",
+        "captions": [
+          "there is a round pan covered with aluminum in the stove",
+          "The oven contains a dish that is covered with tin foil.",
+          "A casserole covered in foil is inside an oven.",
+          "A dish covered in aluminum foil is baking in an oven.",
+          "a pot of food cooking in an oven"
+        ],
+        "width": 640,
+        "height": 361,
+        "keyword_matches": []
+      },
+      {
+        "image_id": 357742,
+        "file_name": "000000357742.jpg",
+        "captions": [
+          "A person on skis sliding up down a path.",
+          "A man is cross country skiing in the snow.",
+          "Person skiing on snowy slopes with wires above",
+          "A man is skiing on a snowy slope.",
+          "A skier makes his way up a snowy hill, eschewing the lift."
+        ],
+        "width": 429,
+        "height": 640,
+        "keyword_matches": []
+      },
+      {
+        "image_id": 162581,
+        "file_name": "000000162581.jpg",
+        "captions": [
+          "A man wearing a white tshirt hits a tennis ball.",
+          "A man on a court with a tennis racket.",
+          "A man playing tennis in a tennis court runs to hit he ball",
+          "A man on the court with his tennis racket raised.",
+          "A man playing tennis is swinging his racket."
+        ],
+        "width": 480,
+        "height": 640,
+        "keyword_matches": []
+      },
+      {
+        "image_id": 450202,
+        "file_name": "000000450202.jpg",
+        "captions": [
+          "A plate filled with food sitting next to three glasses.",
+          "A plate of meats and cheese's next to three wine glasses.",
+          "A table displaying wine glasses and a platter of assorted meats and cheeses.",
+          "A white plate containing sliced ham and cheese sitting on a table next to wine glasses.",
+          "The wine has been poured and ready to drink"
+        ],
+        "width": 375,
+        "height": 500,
+        "keyword_matches": [
+          "product"
+        ]
+      },
+      {
+        "image_id": 23899,
+        "file_name": "000000023899.jpg",
+        "captions": [
+          "Three young men playing Wii on a projection television.",
+          "Three men laughing at some pictures from a projector.",
+          "A group of gentleman playing video games in a dimly lit room.",
+          "Some people chilling on the couch playing with a Nintendo Wii",
+          "A group of men playing a game with remote controllers."
+        ],
+        "width": 640,
+        "height": 425,
+        "keyword_matches": []
+      }
+    ]
+  }
+]
